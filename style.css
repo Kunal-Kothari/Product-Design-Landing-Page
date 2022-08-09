@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: smaller;
+}
+
+.designer {
+    display: flex;
+}
+
+.designer-left img {
+    width: 650px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.designer-right {
+    width: 600px;
+    margin-top: 200px;
+}
+
+.designer-right h4 {
+    color: #FF3343;
+    font-size: 21px;
+}
+
+.designer-right h1 {
+    font-size: 68px;
+}
+
+.designer-right p {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.designer-right button {
+    padding: 15px 40px;
+    font-size: 20px;
+    background: #C91B28;
+    border: none;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.box {
+    position: absolute;
+    background-color: #181818;
+    height: 900px;
+    width: 800px;
+    z-index: -1;
+}
+
+/* ui-designer-container section */
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.ui-design {
+    background-color: #1E1E1E;
+    padding: 40px 60px;
+}
+
+.ui-design img {
+    width: 60px;
+}
+
+.ui-design h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.ui-design p {
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.ui-design>.btn {
+    font-size: larger;
+    margin-top: 20px;
+    color: #FF3343;
+}
+
+.product {
+    background-color: #C91B28;
+    padding: 40px 60px;
+}
+
+.product img {
+    width: 60px;
+}
+
+.product h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.product p {
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.product>.btn {
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.Branding {
+    background-color: #1E1E1E;
+    padding: 40px 60px;
+}
+
+.Branding img {
+    width: 60px;
+}
+
+.Branding h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.Branding p {
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.Branding>.btn {
+    font-size: larger;
+    margin-top: 20px;
+    color: #FF3343;
+}
+
+/* bottom-container section */
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.experience {
+    flex: 1.2;
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 7rem;
+    font-weight: 900;
+    color: #FF3343;
+}
+
+.experience p {
+    font-size: 2rem;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.achivement-cards {
+    display: flex;
+    gap: 20px;
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1E1E1E;
+    width: 20rem;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    color: #FF3343;
+    font-size: 3rem;
+}
+
+.card p {
+    opacity: 0.5;
+}
+
+.projects-container {
+    margin-top: 200px;
+}
+
+.project-heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-left h3 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.heading-left p {
+    opacity: 0.5;
+}
+
+.heading-right button {
+    padding: 12px 40px;
+    font-size: 20px;
+    background: #FF3343;
+    border: none;
+    color: #fff;
+    margin-top: 25px;
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project img {
+    width: 480px;
+    background-color: #1E1E1E;
+    padding: 40px;
+    height: 270px;
+}
+
+.project h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.project p {
+    color: #FF3343;
+}
+
+/* Invitation section */
+.invitation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    background-color: #1E1E1E;
+    padding: 100px;
+    width: 970px;
+    height: 149px;
+    margin-left: 177px;
+}
+
+.invitation-left h2 {
+    font-size: 50px;
+}
+
+.invitation-left p {
+    margin-top: 50px;
+    opacity: 0.5;
+}
+
+.invitation-right button {
+    padding: 12px 40px;
+    font-size: 20px;
+    background: #FF3343;
+    border: none;
+    color: #fff;
+    margin-top: 25px;
+}
+
+/* footer section */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: #1E1E1E;
+    padding: 30px;
+}
+
+.footer-left img {
+    width: 100px;
+}
+
+.footer-right img {
+    width: 30px;
+    margin-right: 20px;
+}
