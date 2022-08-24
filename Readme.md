@@ -10,4 +10,4 @@
 
   - learned how to make website responsive using media query.
   - learned about flexbox.
-  - 
+  
